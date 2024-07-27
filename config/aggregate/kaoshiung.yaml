@@ -1,0 +1,22 @@
+datasets:
+  main:
+    name: "高雄醫"
+    dir: "./data/raw_data/kaoshiung/1.csv"
+    suffix: 'kmu'
+  support:
+    - name: "大同醫院"
+      dir: "./data/raw_data/kaoshiung/18.csv"
+      suffix: "datung"
+    - name: "小港醫院"
+      dir: "./data/raw_data/kaoshiung/19.csv"
+      suffix: "kmsh"
+    - name: 國軍高雄"
+      dir: "./data/raw_data/kaoshiung/51.csv"
+      suffix: "kmsh"
+  extra:
+    - name: "義大醫院"
+      dir: "./data/raw_data/kaoshiung/2.csv"
+      suffix: "edah"
+    - name: "高雄長庚"
+      dir: "./data/raw_data/kaoshiung/3.csv"
+      suffix: "cgmh_kaoshiung"

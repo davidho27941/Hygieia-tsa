@@ -1,0 +1,19 @@
+datasets:
+  main:
+    name: "中國醫"
+    dir: "./data/raw_data/taichung/12.csv"
+    suffix: 'cmu'
+  support:
+    - name: "台中慈濟"
+      dir: "./data/raw_data/taichung/40.csv"
+      suffix: "tzuchi_tc"
+    - name: 部立南投
+      dir: "./data/raw_data/taichung/88.csv"
+      suffix: "mohw_nant"
+  extra:
+    - name: "台中榮總"
+      dir: "./data/raw_data/taichung/17.csv"
+      suffix: "vgh_tc"
+    - name: "中國兒醫"
+      dir: "./data/raw_data/taichung/125.csv"
+      suffix: "cmu_child"

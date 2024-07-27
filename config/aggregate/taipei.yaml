@@ -1,0 +1,19 @@
+datasets:
+  area: taichung
+  main:
+    name: "台大醫院"
+    dir: "./data/raw_data/taipei/8.csv"
+    suffix: 'ntuh'
+  support:
+    - name: "台北慈濟"
+      dir: "./data/raw_data/taipei/22.csv"
+      suffix: "tzuchi_taipei"
+    - name: 台安醫院
+      dir: "./data/raw_data/taipei/25.csv"
+      suffix: "tah"
+    - name: 輔仁醫院
+      dir: "./data/raw_data/taipei/126.csv"
+      suffix: "fjuh"
+    - name: 林口長庚
+      dir: "./data/raw_data/taipei/56.csv"
+      suffix: "cgmh_taipei"
